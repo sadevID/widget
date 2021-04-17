@@ -1,0 +1,56 @@
+﻿#prayer-container {
+    /*width: 300px;*/
+    text-align: center;
+    font-family: Inter;
+}
+
+.prayer_time {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 70px;
+    font-weight: 800;
+    background-color: #FF1659;
+    background-image: url('https://lh3.googleusercontent.com/CZkEKr6y5oGR7gYxB5B6H-uOiZtpitn0gqr00JMAlealDke6AzqUx9BX6Rp-PFEyyG4zIi_sNbeQTnNg=w155-h37');
+    background-position: 10px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 65px;
+    border-radius:  5px 5px 0 0;
+}
+
+#prayer_city {font-weight: 400;}
+
+#prayer-container #prayer_city {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+#prayer-container table {
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    border-top: none;
+}
+
+#prayer-container tbody tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+#prayer-container tbody td {
+    padding: 10px 20px;
+}
+
+    #prayer-container tbody td:nth-child(1) {
+        text-align: left;
+    }
+
+    #prayer-container tbody td:nth-child(2) {
+        text-align: right;
+    }
+.sadev {background-color: #FF1659;height: 45px;line-height: 45px;border-radius:  0 0 5px 5px;font-size: 12px;color: #fff;}
+.sadev a {font-weight: 600;text-decoration: none;color: #fff;}
+.sadev a:hover {color: orange;}
+#prayer_clock::after {content: 'WIB';margin-left: 3px;}
+.border {border: 1px solid #EAEAEA;}
+/*#prayer_date{float:right;font-size: 12px;}
+#prayer_clock {float: left;font-size: 12px;}*/

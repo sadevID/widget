@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Widget Waktu Sholat</title>
+    <link href="widget.api.v1.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="prayer-container">
+        <div class="prayer_time">Jadwal Imsakiyah</div><div class="border">
+        <div id="prayer_city"></div>
+        <div id="prayer_date"></div>
+        <div id="prayer_clock"></div></div>
+        <table>
+            <tbody class="border">
+                <tr>
+                    <td>Imsak</td>
+                    <td id="Imsak"></td>
+                </tr>
+                <tr>
+                    <td>Subuh</td>
+                    <td id="Fajr"></td>
+                </tr>
+		<tr>
+                    <td>Terbit</td>
+                    <td id="Terbit"></td>
+                </tr>
+                <tr>
+                    <td>Dzuhur</td>
+                    <td id="Dhuhr"></td>
+                </tr>
+                <tr>
+                    <td>Asar</td>
+                    <td id="Asr"></td>
+                </tr>
+                <tr>
+                    <td>Maghrib</td>
+                    <td id="Maghrib"></td>
+                </tr>
+                <tr>
+                    <td>Isya</td>
+                    <td id="Isha"></td>
+                </tr>
+            </tbody>
+        </table>
+    <div class="sadev">By <a href="https://www.salabs.ml" target="_blank">SA Developers</a></div><pre>embed</pre>
+</div>
+    <script>
+        var api_url = 'https://api.pray.zone/v2/times/today.json?city=baturaja&school=9';
+        document.addEventListener("DOMContentLoaded", function () {
+            PrayerTimesApi();
+        });
+    </script>
+    <script src="widget.api.v1.js" defer></script>
+</body>
+</html>
