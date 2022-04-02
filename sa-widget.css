@@ -50,13 +50,13 @@
 .sadev a {font-weight: 600;text-decoration: none;color: #fff;}
 .sadev a:hover {color: orange;}
 #prayer_clock::after {content: 'WIB';margin-left: 3px;}
-.border {border: 1px solid #EAEAEA;}
+/*.border {border: 1px solid #EAEAEA;}
 .form-control {
     width: 340px;
     border-top: 1px dotted #f2f2f2;
     border-bottom: 1px dotted #f2f2f2;
     border-right: none;
     border-left: none;
-}
+}*/
 /*#prayer_date{float:right;font-size: 12px;}
 #prayer_clock {float: left;font-size: 12px;}*/
